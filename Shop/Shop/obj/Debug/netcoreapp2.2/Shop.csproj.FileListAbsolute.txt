@@ -9,3 +9,15 @@ C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.
 C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.AssemblyInfoInputs.cache
 C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.AssemblyInfo.cs
 C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.RazorTargetAssemblyInfo.cache
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\bin\Debug\netcoreapp2.2\Shop.pdb
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.dll
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.pdb
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\bin\Debug\netcoreapp2.2\Shop.Views.dll
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\bin\Debug\netcoreapp2.2\Shop.Views.pdb
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.csproj.CopyComplete
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.TagHelpers.input.cache
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.TagHelpers.output.cache
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.RazorCoreGenerate.cache
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Razor\Views\Books\List.g.cshtml.cs
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.RazorTargetAssemblyInfo.cs
+C:\Users\Asus\Documents\GitHub\booksshop\Shop\Shop\obj\Debug\netcoreapp2.2\Shop.Views.pdb

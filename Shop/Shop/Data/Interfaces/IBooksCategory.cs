@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Shop.Data.Models;
 
 namespace Shop.Data.Interfaces
 {
-    interface IBooksCategory
+    public interface IBooksCategory
     {
+        IEnumerable<Category> AllCategories { get; }
     }
 }
