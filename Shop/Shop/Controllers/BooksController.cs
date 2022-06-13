@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Shop.Data.Interfaces;
+using Shop.ViewModels;
 
 namespace Shop.Controllers
 {
@@ -20,9 +21,11 @@ namespace Shop.Controllers
 
         public ViewResult List()
         {
-            ViewBag.Category = "Some new";
-            var books = _allBooks.Books;
-            return View();
+            BooksListViewModel obj = new BooksListViewModel();
+            obj.allBooks = _allBooks.Books;
+            obj.currCategory = "Книжки";
+
+            return View(obj);
         }
     }
 }
