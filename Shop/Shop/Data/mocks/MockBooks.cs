@@ -21,7 +21,7 @@ namespace Shop.Data.mocks
                         name = "Дюна",
                         author = "Френк Герберт",
                         shortDesc = "656",
-                        img = "https://content1.rozetka.com.ua/goods/images/big/255947477.jpg",
+                        img = "/img/dune.jpg",
                         price = 350,
                         isFavorite = true,
                         available = true,
@@ -31,7 +31,7 @@ namespace Shop.Data.mocks
                         name = "Дюна",
                         author = "Френк Герберт",
                         shortDesc = "656",
-                        img = "https://content1.rozetka.com.ua/goods/images/big/255947477.jpg",
+                        img = "/img/magic.jpg",
                         price = 350,
                         isFavorite = true,
                         available = true,
@@ -41,10 +41,10 @@ namespace Shop.Data.mocks
                         name = "Дюна",
                         author = "Френк Герберт",
                         shortDesc = "656",
-                        img = "https://content1.rozetka.com.ua/goods/images/big/255947477.jpg",
+                        img = "/img/hobbit.jpg",
                         price = 350,
                         isFavorite = true,
-                        available = true,
+                        available = false,
                         Category = _categoryBooks.AllCategories.First()
                     }
 
