@@ -31,6 +31,7 @@ namespace Shop.Controllers
             {
                 shopCart = _shopCart
             };
+            ViewBag.Title = "SomiBook";
 
             return View(obj);
         }
@@ -45,5 +46,6 @@ namespace Shop.Controllers
             return RedirectToAction("Index");
 
         }
+
     }
 }

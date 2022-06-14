@@ -24,6 +24,8 @@ namespace Shop.Controllers
             {
                 favBooks = _bookRep.getFavBooks
             };
+            ViewBag.Title = "SomiBook";
+
             return View(homeBooks);
         }
     }
