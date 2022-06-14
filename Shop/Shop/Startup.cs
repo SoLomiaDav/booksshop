@@ -49,7 +49,12 @@ namespace Shop
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseSession();
-            app.UseMvcWithDefaultRoute();
+            //app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes => 
+            {
+                routes.MapRoute(name: "default", template: "{controller=Home}/{action=index}/{id?}");
+                routes.MapRoute(name: "categoryFilter", template: "Book/{action}/{category?}", defaults: new { Controller="Book", action="List" });
+            });
             
             using (var scope = app.ApplicationServices.CreateScope())
             {
