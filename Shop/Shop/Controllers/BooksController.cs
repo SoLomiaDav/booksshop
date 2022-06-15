@@ -51,9 +51,7 @@ namespace Shop.Controllers
             {
                 allBooks = books,
                 currCategory = currCategory
-            };
-
-            ViewBag.Title = "SomiBook";
+            };          
             
 
             return View(bookObj);

@@ -23,8 +23,7 @@ namespace Shop.Controllers
             var homeBooks = new HomeViewModel
             {
                 favBooks = _bookRep.getFavBooks
-            };
-            ViewBag.Title = "SomiBook";
+            };            
 
             return View(homeBooks);
         }

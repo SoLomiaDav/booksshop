@@ -30,8 +30,7 @@ namespace Shop.Controllers
             var obj = new ShopCartViewModel
             {
                 shopCart = _shopCart
-            };
-            ViewBag.Title = "SomiBook";
+            };            
 
             return View(obj);
         }
@@ -43,8 +42,8 @@ namespace Shop.Controllers
             {
                 _shopCart.AddToCart(item);
             }
+            
             return RedirectToAction("Index");
-
         }
 
     }

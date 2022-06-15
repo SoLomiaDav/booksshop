@@ -39,15 +39,14 @@ namespace Shop.Controllers
                 allOrders.createOrder(order);
                 return RedirectToAction("Complete");
             }
-
-            ViewBag.Title = "SomiBook";
-
+            
             return View();
         }
 
         public IActionResult Complete()
         {
             ViewBag.Message = "Замовлення успішно опрацьовано, очікуйте книжки та замовляйте знову";
+            
             return View();
         }
     }

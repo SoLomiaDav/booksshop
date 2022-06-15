@@ -1,10 +1,14 @@
 ﻿@model Book
 
 <div class="col-lg-4">
-    <img class="img-trumbnail" src="@Model.img" alt="@Model.name" />
-    <h2>Назва: @Model.name</h2>
-    <p>@Model.author</p>
-    <p>Ціна: @Model.price.ToString("c")</p>
-    <p><a class="btn btn-warning" asp-controller="ShopCart" asp-action="AddToCart" asp-route-id="@Model.id">Додати у кошик</a></p>
-
+    <div class="card shadw-sm">
+        <img class="card-img-top" width="100%" height="100%" src="@Model.img" alt="@Model.name" />
+        <div class="card-body">
+            <p class="card-text">@Model.name<br /> @Model.author <br /> @Model.shortDesc</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <a class="btn btn-warning" asp-controller="ShopCart" asp-action="AddToCart" asp-route-id="@Model.id">Купити</a></p>
+                <small class="text-muted"> @Model.price.ToString("c")</small>
+            </div>
+        </div>        
+    </div>
 </div>

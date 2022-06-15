@@ -13,30 +13,30 @@ namespace Shop.Data.Models
         public int id { get; set; }
 
         [Display(Name = "Ім'я")]
-        [StringLength(2)]
-        [Required(ErrorMessage = "Довжина імені менше 2 символів")]
+        [StringLength(20)]
+        [Required(ErrorMessage = "Довжина імені більше 20 символів")]
         public string name { get; set; }
 
         [Display(Name = "Прізвище")]
-        [StringLength(5)]
-        [Required(ErrorMessage = "Довжина призвища менше 5 символів")]
+        [StringLength(20)]
+        [Required(ErrorMessage = "Довжина прізвища більше 20 символів")]
         public string surname { get; set; }
 
         [Display(Name = "Адреса")]
-        [StringLength(15)]
-        [Required(ErrorMessage = "Довжина адреси менше 15 символів")]
+        [StringLength(50)]
+        [Required(ErrorMessage = "Довжина адреси більше 50 символів")]
         public string adress { get; set; }
 
         [Display(Name = "Номер телефону")]
-        [StringLength(10)]
+        [StringLength(13)]
         [DataType(DataType.PhoneNumber)]
-        [Required(ErrorMessage = "Довжина номеру менше 10 символів")]
+        [Required(ErrorMessage = "Довжина номеру більше 13 символів")]
         public string phone { get; set; }
 
         [Display(Name = "Email")]
         [DataType(DataType.EmailAddress)]
-        [StringLength(10)]
-        [Required(ErrorMessage = "Довжина email менше 10 символів")]
+        [StringLength(40)]
+        [Required(ErrorMessage = "Довжина email більше 40 символів")]
         public string email { get; set; }
 
         [BindNever]
